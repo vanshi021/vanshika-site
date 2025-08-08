@@ -16,6 +16,7 @@ body {
   flex-direction: column;
   overflow-x: hidden;
   line-height: 35px;
+  margin-trim: 0;
 }
 
 .header {
@@ -32,6 +33,7 @@ body {
   height: 80px;
   width: 80px;
   height: fit-content;
+  border-right: #333;
 }
 
 nav {
@@ -148,7 +150,7 @@ h3 {
   background-color: #dcc5b2;
   padding: 15px;
   border-radius: 150px 0 0 150px;
-  box-shadow: 0 4px 8px #dcc5b2(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px #dcc5b2;
   padding-top: 0px;
   padding-bottom: 0px;
 }
