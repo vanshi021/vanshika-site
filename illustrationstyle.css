@@ -42,7 +42,12 @@ nav {
   display: flex;
   align-items: center;
 }
-
+.divider {
+  width: 2px;
+  height: 40px;
+  background: black;
+  margin: 0 8px;
+}
 .menu {
   font-size: 18px;
   font-weight: bold;

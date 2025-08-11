@@ -1,5 +1,5 @@
 :root {
-  --main-background-color: #f6f8f3;
+  background-color: #fdfbf6;
 }
 
 * {
@@ -65,7 +65,7 @@ nav {
 .main-wrapper {
   flex: 1;
   display: flex;
-  background: white;
+  /* background: white; */
   gap: 20px;
   padding: 20px;
 }
@@ -125,6 +125,7 @@ button {
   border-radius: 20px;
   border: none;
   margin-top: 20px;
+  box-shadow:4px 4px 4px grey;
 }
 a {
   color: inherit;
@@ -153,10 +154,10 @@ h3 {
   border-top-left-radius: 150px;
   border-bottom-left-radius: 150px;
   display: inline-block;
-  background-color: #dcc5b2;
+  background-color: #dabea7;
   padding: 15px;
   border-radius: 150px 0 0 150px;
-  box-shadow: 0 4px 8px #dcc5b2;
+  box-shadow: 0 4px 8px gray;
   padding-top: 0px;
   padding-bottom: 0px;
 }
@@ -190,7 +191,7 @@ h3 {
 }
 hr {
   background-color: #718dae;
-  height: 1.5px;
+  height: 2px;
   border: none;
   width: 110%;
   /* margin: 1rem auto 0.2rem auto; top, right, bottom, left */
