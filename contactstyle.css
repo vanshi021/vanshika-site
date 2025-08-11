@@ -1,0 +1,95 @@
+:root {
+  background-color: #d9a299;
+}
+
+* {
+  /* margin: 5px; */
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  min-height: 100vh;
+
+  /* height: 100vh; */
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+  margin-trim: 0;
+  line-height: 30px;
+  margin: 0;
+}
+
+.header {
+  float: left;
+  margin-left: 50px;
+  margin-top: 20px;
+  background-color: white;
+  color: #d8a39a;
+  border: none;
+  /* font-weight: bold; */
+  cursor: pointer;
+  transition: background 0.3s ease;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  border: none;
+  text-decoration: none;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-wrapper {
+  flex: 1;
+  display: flex;
+  /*background: #f6f8f3;*/
+  gap: 20px;
+  padding: 20px;
+}
+
+.container {
+  background: #fff7f7;
+  border-radius: 20px;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 0.5fr;
+  gap: 2rem;
+  max-width: 900px;
+  box-shadow: 0 8px 20px black;
+}
+
+.phone {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  position: absolute;
+  top: 10px;
+  left: 800px;
+  width: 550px;
+  z-index: 10;
+  margin-top: -20px;
+}
+
+.form h2 {
+  color: #718dae;
+  margin-top: 0;
+  font-size: 35px;
+}
+
+.form p {
+  color: #666;
+  font-size: 18px;
+  width: 750px;
+  margin-bottom: 30px;
+}
+
+.form h6 {
+  color: #666;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: -20px;
+}
