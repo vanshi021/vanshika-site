@@ -25,7 +25,7 @@ body {
   padding: 20px;
   display: flex;
   justify-content: space-between;
-  align-items: start;
+  align-items: center;
   /*border-bottom: 1px solid #e9ecef;*/
 }
 
@@ -54,7 +54,7 @@ nav {
 .menu {
   font-size: 18px;
   font-weight: bold;
-  margin-top: 45px;
+  /* margin-top: 45px; */
 }
 
 .main-wrapper {
@@ -207,8 +207,8 @@ h3 {
   text-align: center;
   font-size: 20px;
   font-weight: bold;
-  margin-top: -10px;
-  margin-bottom: -10px;
+  margin-top: -25px;
+  margin-bottom: -30px;
 }
 hr {
   background-color: #718dae;

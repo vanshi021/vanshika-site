@@ -1,5 +1,5 @@
 :root {
-  background-color: #d9a299;
+  background-color: #fdfbf6;
 }
 
 * {
@@ -24,16 +24,15 @@ body {
   float: left;
   margin-left: 50px;
   margin-top: 20px;
-  background-color: white;
-  color: #d8a39a;
-  border: none;
-  /* font-weight: bold; */
+  background-color: #d9a299;
+  color: #718dae;
+  font-weight: bold;
   cursor: pointer;
   transition: background 0.3s ease;
   padding: 10px 20px 10px 20px;
   border-radius: 20px;
   border: none;
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 
 .contact {
