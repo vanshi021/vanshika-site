@@ -17,6 +17,7 @@ body {
   overflow-x: hidden;
   margin-trim: 0;
   line-height: 30px;
+  cursor: url(/images/icons8-cursor-50.png) 4 4, auto;
 }
 
 .header {
@@ -114,6 +115,7 @@ a {
   font-family: "Nunito", sans-serif;
   font-size: 15px;
   font-weight: bold;
+  cursor: url(/images/icons8-cursor-50.png) 4 4, auto;
 }
 .right-section {
   width: 300px;
@@ -141,7 +143,7 @@ a {
   padding: 20px;
   font-family: "Nunito", sans-serif;
   margin-top: -60px;
-  margin-left: 20px ;
+  margin-left: 20px;
   box-shadow: 4px 4px 4px grey;
 }
 .blue-box h2 {
@@ -173,7 +175,7 @@ button {
   border: none;
   padding: 10px 20px;
   font-weight: bold;
-  cursor: pointer;
+  cursor: url(/images/icons8-cursor-50.png) 4 4, auto;
   transition: background 0.3s ease;
   padding: 10px 20px 10px 20px;
   border-radius: 20px;

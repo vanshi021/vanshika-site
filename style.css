@@ -17,12 +17,9 @@ body {
   overflow-x: hidden;
   line-height: 35px;
   margin-trim: 0;
-  cursor: url(/images/icons8-cursor-60.svg) 4 4, auto;
+  cursor: url(/images/icons8-cursor-50.png) 4 4, auto;
 }
 
-.cursor {
-  height: 1px;
-}
 .header {
   /* background: #f8f9fa; */
   color: #333;
@@ -131,6 +128,7 @@ button {
   border: none;
   margin-top: 20px;
   box-shadow: 4px 4px 4px grey;
+  cursor: url(/images/icons8-cursor-50.png) 4 4, auto;
 }
 a {
   color: inherit;
@@ -139,6 +137,7 @@ a {
   font-family: "Nunito", sans-serif;
   font-size: 15px;
   font-weight: bold;
+  cursor: url(/images/icons8-cursor-50.png) 4 4, auto;
 }
 h3 {
   font-family: "Playfair Display", serif;

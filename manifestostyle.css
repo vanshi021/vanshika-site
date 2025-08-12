@@ -17,6 +17,7 @@ body {
   overflow-x: hidden;
   margin-trim: 0;
   line-height: 30px;
+  cursor: url(/images/icons8-cursor-50.png) 4 4, auto;
 }
 
 .header {
@@ -120,9 +121,9 @@ nav {
     padding: 0;
     margin-left: 300px;
   }
-.pro-last {
-  width: 700px;
-}
+  .pro-last {
+    width: 700px;
+  }
   a {
     color: inherit;
     text-decoration: none;
@@ -130,6 +131,7 @@ nav {
     font-family: "Nunito", sans-serif;
     font-size: 15px;
     font-weight: bold;
+    cursor: url(/images/icons8-cursor-50.png) 4 4, auto;
   }
   /*.sub-content {
   color: #797877;
@@ -140,7 +142,7 @@ nav {
   font-size: 20px;
   margin-top: -50px;
 }
-*/ h3 {
+h3 {
   font-family: "Playfair Display", serif;
   font-size: 38px;
 }
@@ -179,6 +181,7 @@ nav a {
   font-family: "Nunito", sans-serif;
   text-decoration: none;
   margin: 0 10px;
+  cursor: url(/images/icons8-cursor-50.png) 4 4, auto;
 }
 
 nav a:hover {

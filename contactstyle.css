@@ -11,7 +11,7 @@
 body {
   font-family: system-ui, sans-serif;
   min-height: 100vh;
-
+  cursor: url(/images/icons8-cursor-50.png) 4 4, auto;
   /* height: 100vh; */
   overflow-x: hidden;
   /* overflow-y: hidden; */
@@ -19,22 +19,30 @@ body {
   line-height: 30px;
   margin: 0;
 }
-
+.back {
+  text-decoration: none;
+  color: white;
+}
 .header {
   float: left;
   margin-left: 50px;
   margin-top: 20px;
   background-color: #d9a299;
-  color: #718dae;
+  box-shadow: 4px 4px 4px #666;
   font-weight: bold;
   cursor: pointer;
   transition: background 0.3s ease;
   padding: 10px 20px 10px 20px;
   border-radius: 20px;
-  border: none;
-  /* text-decoration: none; */
+  text-decoration: none;
+  font-weight: bold;
+  cursor: url(/images/icons8-cursor-50.png) 4 4, auto;
 }
 
+a:hover {
+  text-decoration: underline;
+  cursor: url(/images/icons8-cursor-50.png) 4 4, auto;
+}
 .contact {
   display: flex;
   flex-direction: column;

@@ -17,6 +17,7 @@ body {
   margin-trim: 0;
   line-height: 30px;
   margin: 0;
+  cursor: url(/images/icons8-cursor-50.png) 4 4, auto;
 }
 
 .header {
@@ -201,6 +202,7 @@ nav a {
   font-family: "Nunito", sans-serif;
   text-decoration: none;
   margin: 0 10px;
+  cursor: url(/images/icons8-cursor-50.png) 4 4, auto;
 }
 
 nav a:hover {
